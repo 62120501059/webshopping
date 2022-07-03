@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Market hall </title>
+    <link rel="stylesheet" type="text/css" href="/css/cart.css">
+</head>
+
+<body>
+    <div class="grid-nav">
+        <nav>
+           <ul>
+            <h2 class="logo"><img src="/Pic/logo.png"></h2>
+               <li><a href="/views/index.html">HOME</a></li>
+               <ion-icon name="home-outline"></ion-icon>
+               
+               <li class="cart">
+                   <a href="/views/cart.html">
+                        <ion-icon name = "cart-outline"></ion-icon>CART<span> 0 </span>
+                   </a>      
+                </li>
+               
+               <li><a href="/logout"> 
+               <ion-icon name="log-out-outline"></ion-icon>Logout<span></span>>
+            </a></li>
+            
+           </ul>
+        </nav>
+    </div>
+
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class = "product-title">PRODUCT</h5>
+            <h5 class = "price">PRICE</h5>
+            <h5 class = "quantity"></h5>
+            <h5 class = "total">TOTAL</h5>
+        </div>
+        <div class="products"></div>
+
+        <div class="buyBtnCtn">
+            <button onclick="startCheckout()" class="startCheckout">Start Checkout</button>
+		</div>
+
+       
+    </div>
+
+        <script>
+            function startCheckout() {
+                alert("THANK YOU FOR YOUR ORDER");
+            }
+        </script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/js/main.js"></script>
+
+    
+
+   
+</body>
+</html>
+

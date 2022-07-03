@@ -1,0 +1,17 @@
+npm install express
+npm install cookie-parser
+npm install multer
+npm install mysql
+
+Nom I express cookie-parser multer mysql
+
+ที่ mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; 
+//ตรง password ให้ใส่ password ของ user root ของตัวเอง
+flush privileges;
+//run 2 บรรทัดใน mysql workbench
+
+สาระ
+1.วิธี Delete ที่ sql
+SELECT * FROM mdt419_assignment12.userinfo;
+DELETE FROM mdt419_assignment12.userinfo WHERE id='2';

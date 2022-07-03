@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+	<body>
+
+		<div id="header"><h1>Register</h1></div>
+
+	<div id="mother">
+
+		<div id=container>
+			<form class="form" action="/regisDB" method="post" accept-charset="utf-8">
+				<fieldset>
+					
+					Username:<input type="text" name="username" value="" placeholder="" required><br>
+					Email:<input type="text" name="email" value="" placeholder="" required><br>
+					Password:<input type="password" name="password" value="" placeholder=""><br>
+					<span id="errordisplay"></span><br>
+					<input type="submit" name="submit" value="Register">
+					<a href="login.html">Login</a>
+				</fieldset>
+			</form>
+		</div>
+
+		<!-- <div id="container-2">
+			<form class="form" action="/checkLogin" method="post" accept-charset="utf-8">
+				<fieldset>
+					<legend> Login </legend>
+					Username:<input type="text" name="username" value="" placeholder="" required><br>
+					Password: <input type="password" name="password" value="" placeholder="" required><br>
+					<span id="errordisplay"></span><br>
+					<input id="register"  type="submit" value="Login">
+					<a id="register"  href="./register.html">register</a>
+				</fieldset>
+			</form>
+		</div> -->
+		
+	</div>	
+
+	</body>
+</html>
